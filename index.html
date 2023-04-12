@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="componentes/stylesheets/normalize.css">
+    <link rel="stylesheet" href="componentes/stylesheets/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header> 
+        <img src="imagenes/img/logo__alura.svg" alt="Logo de Alura" class="logo-alura">
+    </header>
+    <main>
+        <div class="contenedor-encriptador">
+            <textarea  placeholder="Ingrese texto aqui" name="texto-encriptado" class="encriptador"></textarea>
+        </div>
+        <div class="alerta">
+            <img src="imagenes/img/alert.svg" class="alerta" alt="alerta">
+            <p>Solo letras minusculas y sin acentos</p>
+
+        </div>
+        
+        <div class="botones">
+            <button class="btn-encriptar ">Encriptar</button>
+            <button class="btn-desencriptar">Desencriptar</button>
+        </div>
+
+        <aside class="aside-contenedor">
+            <textarea name="texto encriptado" readonly class="encriptador-res ocultarse" ></textarea>
+            <button class="btn-copiar ocultarse">Copiar</button>
+
+            <div class="contenedor-mensaje ocultar">
+                <p class="text">Ningún mensaje fue encontrado</p>
+                <p class="text">Ingrese el texto que deseas encriptar</p>
+                <img loading="lazy" class="text" src="imagenes/img/Muñeco.svg" alt="imagen muñeco">
+            </div>
+        </aside>
+
+    </main>
+    <footer>
+        <h2>Todos los derechos reservados. Edson Daniel</h2>
+    </footer> 
+    
+    <script src="componentes/js/script.js"></script>
+
+</body>
+</html>
