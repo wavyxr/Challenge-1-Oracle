@@ -104,6 +104,7 @@ const desencriptar=()=>{
     }
     else{
         textoEncriptado.value=texto;
+        mostrarElementos()
         areaEncriptacion.value=""
     }
 }
